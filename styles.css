@@ -1,0 +1,138 @@
+[type="button"]:focus{
+  outline:none;
+}
+
+[type="button"]:hover{
+  transform: scale(1.1, 1.1);
+}
+h1 {
+  text-align: center;
+  font-size: 1.8em;
+  color: white;
+  margin-bottom: 0;
+  font-family: Roboto;
+}
+
+html {
+  background-color: #1C1C1C;
+  font-family: Roboto;
+}
+.button {
+  background-color: #3D6BC9;
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:10px;
+  padding-bottom:10px;
+  color: white;
+  font-size: 1.8em;
+  margin-top: 10px;
+  border-bottom-right-radius:20px;
+  border-top-left-radius:20px;
+  border: none;
+  font-family: Roboto;
+}
+#Textstart {
+  border-top:2px solid #3D6BC9;
+  border-bottom:2px solid #3D6BC9;
+  padding: 10px;
+  display: none;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: Roboto;
+}
+.p1 {
+  text-align: center;
+}
+/*Стили для кнопок*/
+.button1, .button2  {
+  margin-top: 10px;
+  background-color: #3D6BC9;
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:5px;
+  padding-bottom:5px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 1.0em;
+  font-family: Roboto;
+  height: 29px;
+}
+
+.button2  {
+  margin-left: 10px;
+}
+
+#div1 {
+  padding: 2%;
+  display: none;
+  background-color: hsla(0, 0%, 75%, 0.3);
+  border-radius: 2px;
+  height: auto;
+  justify-content: center;
+  flex-flow: row wrap;
+ margin-left: 30%;
+ margin-right: 30%;
+}
+
+#div2 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#divButton {
+  justify-content: space-between;
+}
+
+#valueUser {
+  margin-top: 10px;
+  color: white;
+  font-size: 1.0em;
+  display: flex;
+  margin-left: 20px;
+  align-items: flex-start;
+}
+
+#writeText {
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 2px;
+  height: 27px;
+  border: none;
+}
+
+/*Стили для мобильного приложения*/
+@media (max-width: 780px) {
+  #div1 {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+@media (max-width: 500px) {
+  #Textstart {
+    font-size: 1.0em;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  .button {
+    font-size: 1.2em;
+  }
+  #div1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #valueUser {
+    margin-left: 0;
+  }
+  #writeText {
+    margin-right: 0;
+  }
+  .button1, .button2  {
+    font-size: 0.8em;
+  }
+}
