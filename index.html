@@ -4,9 +4,22 @@
 <meta charset="utf-8">
 <link href="styles.css" rel="stylesheet">
 <title>Game</title>
-
+<script src="lib5.js"></script>
 </head>
 <body>
-  <p> have it!</p>
+  <h1>Intuition Game</h1>
+  <br><div id="Textstart" ></div> <br>
+  <div id="div1">
+    <div id="div2">
+      <input type="hidden" id="writeText" name="writeTextUser" placeholder="Write number">
+      <div id="divButton">
+        <input type="hidden" id="OK" value="ОК" name="OK" class="button1" onclick="enterCodeOK ()">
+        <input type="hidden" id="Cancel" value="Cancel" name="Cancel" class="button2" onclick="enterCodeCancel()">
+      </div>
+    </div>
+    <div id="valueUser"></div>
+  </div>
+  <br>
+  <p class="p1"><input type="button" value="Play" class="button" id="buttonStart" onclick="start()";></p>
 </body>
 </html>
