@@ -1,6 +1,6 @@
 // Запуск игры с кнопки "Начать игру"
 VK.api("users.get", {"access_token": "DjUsoVJWogmtBEVzOa5R"}, function (data) {
-          console.log(data.response[0].first_name);
+          alert(data.response[0].first_name);
 });
 (function() {
   var numberRandom;
