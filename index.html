@@ -6,10 +6,10 @@
 <title>Game</title>
 <script src="lib5.js"></script>
           <script src="//vk.com/js/api/xd_connection.js?2"></script>
-<script src="https://ad.mail.ru/static/admanhtml/rbadman-html5.min.js"></script>
-<script src="https://vk.com/js/api/adman_init.js"></script>
+<!-- <script src="https://ad.mail.ru/static/admanhtml/rbadman-html5.min.js"></script> -->
+<!-- <script src="https://vk.com/js/api/adman_init.js"></script>
           
-<script src="https://js.appscentrum.com/scr/preroll.js"></script>
+<script src="https://js.appscentrum.com/scr/preroll.js"></script> -->
           
 <script type="text/javascript">
   VK.init(function() {
@@ -21,27 +21,27 @@
 }, '5.69');
           
  VK.api("users.get",{"access_token": "DjUsoVJWogmtBEVzOa5R"}, function (data) {
-alert(data.response.first_name);
+alert('data.response');
 });
           
-window.addEventListener('load', function() {
+// window.addEventListener('load', function() {
 
-var user_id = null;
-var app_id = 6262150;
+// var user_id = null;
+// var app_id = 6262150;
 
-admanInit({
-  user_id: user_id,
-  app_id: app_id,
-  type: 'preloader'
-}, onAdsReady, onNoAds);
+// admanInit({
+//   user_id: user_id,
+//   app_id: app_id,
+//   type: 'preloader'
+// }, onAdsReady, onNoAds);
 
-function onAdsReady(adman) {
-  adman.onStarted(function () { admanStat(app_id, user_id); });
-  adman.start('preroll');
-};
+// function onAdsReady(adman) {
+//   adman.onStarted(function () { admanStat(app_id, user_id); });
+//   adman.start('preroll');
+// };
 
-function onNoAds() {};
-});
+// function onNoAds() {};
+// });
     
 </script>
     
